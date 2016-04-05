@@ -1,0 +1,29 @@
+{
+    "favicon": "<theme_url>img/favicon.png",
+    "css": ["<theme_url>css/theme.min.css"],
+    "fonts": ["//fonts.googleapis.com/css?family=Lato:400,700,300|Roboto+Slab:400,700,300"],
+    "js": [],
+    "variants": {
+        "blue": {
+            "favicon": "<theme_url>img/favicon-blue.png",
+            "css": ["<theme_url>css/theme-blue.min.css"]
+        },
+        "green": {
+            "favicon": "<theme_url>img/favicon-green.png",
+            "css": ["<theme_url>css/theme-green.min.css"]
+        },
+        "navy": {
+            "favicon": "<theme_url>img/favicon-navy.png",
+            "css": ["<theme_url>css/theme-navy.min.css"]
+        },
+        "red": {
+            "favicon": "<theme_url>img/favicon-red.png",
+            "css": ["<theme_url>css/theme-red.min.css"]
+        },
+        "hydra": {
+            "favicon": "<theme_url>img/favicon-hydra.png",
+            "css": ["<theme_url>css/theme-hydra.min.css"]
+        }
+
+    }
+}

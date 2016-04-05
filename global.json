@@ -1,0 +1,48 @@
+{
+    "docs_directory": "docs",
+    "themes_directory": "themes",
+
+    "title": "Lorea",
+    "tagline": "A social networking autonomous experiment",
+    "author": "Lorea fairys",
+    "image": "",
+    "languages": {},
+
+    "format": "html",
+    "processor": "",
+
+    "ignore": {
+        "files": [],
+        "folders": []
+    },
+
+    "timezone": "America/Los_Angeles",
+
+    "live": {
+        "inherit_index": false,
+        "clean_urls": true
+    },
+
+    "html": {
+        "theme": "daux-blue",
+        "breadcrumbs": true,
+        "toggle_code": false,
+        "date_modified": false,
+        "float": false,
+        "auto_landing": true,
+
+        "repo": "lorea",
+        "twitter": [],
+        "links": {
+        },
+
+        "google_analytics": false,
+        "piwik_analytics": false,
+        "piwik_analytics_id": "0"
+    },
+
+    "confluence": {
+        "prefix": "",
+        "delete": false
+    }
+}

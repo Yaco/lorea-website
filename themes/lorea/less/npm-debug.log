@@ -1,0 +1,280 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'less' ]
+2 info using npm@1.4.29
+3 info using node@v0.10.41
+4 verbose node symlink /usr/bin/node
+5 warn deprecated This version of npm lacks support for important features,
+6 warn deprecated such as scoped packages, offered by the primary npm
+7 warn deprecated registry. Consider upgrading to at least npm@2, if not the
+8 warn deprecated latest stable version. To upgrade to npm@2, run:
+9 warn deprecated npm -g install npm@latest-2
+10 warn deprecated To upgrade to the latest stable version, run:
+11 warn deprecated npm -g install npm@latest
+12 warn deprecated (Depending on how Node.js was installed on your system, you
+13 warn deprecated may need to prefix the preceding commands with `sudo`, or if
+14 warn deprecated on Windows, run them from an Administrator prompt.)
+15 warn deprecated If you're running the version of npm bundled with
+16 warn deprecated Node.js 0.10 LTS, be aware that the next version of 0.10 LTS
+17 warn deprecated will be bundled with a version of npm@2, which has some small
+18 warn deprecated backwards-incompatible changes made to `npm run-script` and
+19 warn deprecated semver behavior.
+20 verbose cache add [ 'less', null ]
+21 verbose cache add name=undefined spec="less" args=["less",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'less',
+22 verbose parsed url   path: 'less',
+22 verbose parsed url   href: 'less' }
+23 silly lockFile 0b439cf4-less less
+24 verbose lock less /home/reevo/.npm/0b439cf4-less.lock
+25 silly lockFile 0b439cf4-less less
+26 silly lockFile 0b439cf4-less less
+27 verbose addNamed [ 'less', '' ]
+28 verbose addNamed [ null, '*' ]
+29 silly lockFile e13833ab-less less@
+30 verbose lock less@ /home/reevo/.npm/e13833ab-less.lock
+31 silly addNameRange { name: 'less', range: '*', hasData: false }
+32 verbose request where is /less
+33 verbose request registry https://registry.npmjs.org/
+34 verbose request id 987bb65884b90825
+35 verbose url raw /less
+36 verbose url resolving [ 'https://registry.npmjs.org/', './less' ]
+37 verbose url resolved https://registry.npmjs.org/less
+38 verbose request where is https://registry.npmjs.org/less
+39 info trying registry request attempt 1 at 23:08:05
+40 http GET https://registry.npmjs.org/less
+41 http 200 https://registry.npmjs.org/less
+42 silly registry.get cb [ 200,
+42 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+42 silly registry.get     etag: '"EZC071I1OR03JZ51LVWQP1LTX"',
+42 silly registry.get     'content-type': 'application/json',
+42 silly registry.get     'content-encoding': 'gzip',
+42 silly registry.get     'cache-control': 'max-age=300',
+42 silly registry.get     'content-length': '12873',
+42 silly registry.get     'accept-ranges': 'bytes',
+42 silly registry.get     date: 'Tue, 05 Apr 2016 02:18:05 GMT',
+42 silly registry.get     via: '1.1 varnish',
+42 silly registry.get     age: '45',
+42 silly registry.get     connection: 'keep-alive',
+42 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+42 silly registry.get     'x-cache': 'HIT',
+42 silly registry.get     'x-cache-hits': '1',
+42 silly registry.get     'x-timer': 'S1459822685.739406,VS0,VE0',
+42 silly registry.get     vary: 'Accept' } ]
+43 silly addNameRange number 2 { name: 'less', range: '*', hasData: true }
+44 silly addNameRange versions [ 'less',
+44 silly addNameRange   [ '1.0.10',
+44 silly addNameRange     '1.0.11',
+44 silly addNameRange     '1.0.14',
+44 silly addNameRange     '1.0.18',
+44 silly addNameRange     '1.0.19',
+44 silly addNameRange     '1.0.21',
+44 silly addNameRange     '1.0.32',
+44 silly addNameRange     '1.0.36',
+44 silly addNameRange     '1.0.5',
+44 silly addNameRange     '1.0.40',
+44 silly addNameRange     '1.0.41',
+44 silly addNameRange     '1.0.44',
+44 silly addNameRange     '1.1.0',
+44 silly addNameRange     '1.1.1',
+44 silly addNameRange     '1.1.2',
+44 silly addNameRange     '1.1.4',
+44 silly addNameRange     '1.1.5',
+44 silly addNameRange     '1.1.6',
+44 silly addNameRange     '1.2.0',
+44 silly addNameRange     '1.2.1',
+44 silly addNameRange     '1.2.2',
+44 silly addNameRange     '1.3.0',
+44 silly addNameRange     '1.3.1',
+44 silly addNameRange     '1.3.2',
+44 silly addNameRange     '1.3.3',
+44 silly addNameRange     '1.4.0-b1',
+44 silly addNameRange     '1.4.0-b2',
+44 silly addNameRange     '1.4.0-b3',
+44 silly addNameRange     '1.4.0-b4',
+44 silly addNameRange     '1.4.0',
+44 silly addNameRange     '1.4.1',
+44 silly addNameRange     '1.4.2',
+44 silly addNameRange     '1.5.0-b1',
+44 silly addNameRange     '1.5.0-b2',
+44 silly addNameRange     '1.5.0-b3',
+44 silly addNameRange     '1.5.0-b4',
+44 silly addNameRange     '1.5.0',
+44 silly addNameRange     '1.5.1',
+44 silly addNameRange     '1.6.0',
+44 silly addNameRange     '1.6.1',
+44 silly addNameRange     '1.6.2',
+44 silly addNameRange     '1.6.3',
+44 silly addNameRange     '1.7.0',
+44 silly addNameRange     '1.7.1',
+44 silly addNameRange     '1.7.3',
+44 silly addNameRange     '1.7.4',
+44 silly addNameRange     '1.7.5',
+44 silly addNameRange     '2.0.0-b1',
+44 silly addNameRange     '2.0.0-b2',
+44 silly addNameRange     '2.0.0-b3',
+44 silly addNameRange     '2.0.0',
+44 silly addNameRange     '2.1.0',
+44 silly addNameRange     '2.1.1',
+44 silly addNameRange     '2.1.2',
+44 silly addNameRange     '2.2.0',
+44 silly addNameRange     '2.3.0',
+44 silly addNameRange     '2.3.1',
+44 silly addNameRange     '2.4.0',
+44 silly addNameRange     '2.5.0',
+44 silly addNameRange     '2.5.1',
+44 silly addNameRange     '2.5.2',
+44 silly addNameRange     '2.5.3',
+44 silly addNameRange     '2.6.0',
+44 silly addNameRange     '2.6.1' ] ]
+45 verbose addNamed [ 'less', '2.6.1' ]
+46 verbose addNamed [ '2.6.1', '2.6.1' ]
+47 silly lockFile 06e2534e-less-2-6-1 less@2.6.1
+48 verbose lock less@2.6.1 /home/reevo/.npm/06e2534e-less-2-6-1.lock
+49 silly lockFile 5095d0b3-ry-npmjs-org-less-less-2-6-1-tgz https://registry.npmjs.org/less/-/less-2.6.1.tgz
+50 verbose lock https://registry.npmjs.org/less/-/less-2.6.1.tgz /home/reevo/.npm/5095d0b3-ry-npmjs-org-less-less-2-6-1-tgz.lock
+51 verbose addRemoteTarball [ 'https://registry.npmjs.org/less/-/less-2.6.1.tgz',
+51 verbose addRemoteTarball   '658e01ec9ac3149959c6b6dfbcfbc0a170afda7a' ]
+52 info retry fetch attempt 1 at 23:08:06
+53 verbose fetch to= /tmp/npm-5973-mLlbJUmZ/registry.npmjs.org/less/-/less-2.6.1.tgz
+54 http GET https://registry.npmjs.org/less/-/less-2.6.1.tgz
+55 http 200 https://registry.npmjs.org/less/-/less-2.6.1.tgz
+56 silly lockFile 5095d0b3-ry-npmjs-org-less-less-2-6-1-tgz https://registry.npmjs.org/less/-/less-2.6.1.tgz
+57 silly lockFile 5095d0b3-ry-npmjs-org-less-less-2-6-1-tgz https://registry.npmjs.org/less/-/less-2.6.1.tgz
+58 silly lockFile 06e2534e-less-2-6-1 less@2.6.1
+59 silly lockFile 06e2534e-less-2-6-1 less@2.6.1
+60 silly lockFile e13833ab-less less@
+61 silly lockFile e13833ab-less less@
+62 silly resolved [ { name: 'less',
+62 silly resolved     version: '2.6.1',
+62 silly resolved     description: 'Leaner CSS',
+62 silly resolved     homepage: 'http://lesscss.org',
+62 silly resolved     author: { name: 'Alexis Sellier', email: 'self@cloudhead.net' },
+62 silly resolved     contributors: [ [Object] ],
+62 silly resolved     bugs: { url: 'https://github.com/less/less.js/issues' },
+62 silly resolved     repository: { type: 'git', url: 'git+https://github.com/less/less.js.git' },
+62 silly resolved     license: 'Apache-2.0',
+62 silly resolved     bin: { lessc: './bin/lessc' },
+62 silly resolved     main: 'index',
+62 silly resolved     directories: { test: './test' },
+62 silly resolved     jam: { main: './dist/less.js' },
+62 silly resolved     browser: './dist/less.js',
+62 silly resolved     engines: { node: '>=0.10.0' },
+62 silly resolved     scripts: { test: 'grunt test' },
+62 silly resolved     optionalDependencies:
+62 silly resolved      { errno: '^0.1.1',
+62 silly resolved        'graceful-fs': '^4.1.2',
+62 silly resolved        'image-size': '~0.4.0',
+62 silly resolved        mime: '^1.2.11',
+62 silly resolved        mkdirp: '^0.5.0',
+62 silly resolved        promise: '^7.1.1',
+62 silly resolved        request: '^2.51.0',
+62 silly resolved        'source-map': '^0.5.3' },
+62 silly resolved     devDependencies:
+62 silly resolved      { diff: '^2.2.1',
+62 silly resolved        grunt: '^0.4.5',
+62 silly resolved        'grunt-contrib-clean': '^1.0.0',
+62 silly resolved        'grunt-contrib-concat': '^1.0.0',
+62 silly resolved        'grunt-contrib-connect': '^0.11.2',
+62 silly resolved        'grunt-contrib-jasmine': '^1.0.0',
+62 silly resolved        'grunt-contrib-jshint': '^1.0.0',
+62 silly resolved        'grunt-contrib-uglify': '^0.11.0',
+62 silly resolved        'grunt-jscs': '^2.7.0',
+62 silly resolved        'grunt-shell': '^1.1.1',
+62 silly resolved        'grunt-browserify': '~4.0.1',
+62 silly resolved        'jit-grunt': '^0.9.1',
+62 silly resolved        'time-grunt': '^1.0.0',
+62 silly resolved        'grunt-saucelabs': '^8.3.2' },
+62 silly resolved     keywords:
+62 silly resolved      [ 'compile less',
+62 silly resolved        'css nesting',
+62 silly resolved        'css variable',
+62 silly resolved        'css',
+62 silly resolved        'gradients css',
+62 silly resolved        'gradients css3',
+62 silly resolved        'less compiler',
+62 silly resolved        'less css',
+62 silly resolved        'less mixins',
+62 silly resolved        'less',
+62 silly resolved        'less.js',
+62 silly resolved        'lesscss',
+62 silly resolved        'mixins',
+62 silly resolved        'nested css',
+62 silly resolved        'parser',
+62 silly resolved        'preprocessor',
+62 silly resolved        'bootstrap css',
+62 silly resolved        'bootstrap less',
+62 silly resolved        'style',
+62 silly resolved        'styles',
+62 silly resolved        'stylesheet',
+62 silly resolved        'variables in css',
+62 silly resolved        'css less' ],
+62 silly resolved     gitHead: 'b550b2081f0af3b8905d31a2a03f595ad7b299a8',
+62 silly resolved     dependencies:
+62 silly resolved      { errno: '^0.1.1',
+62 silly resolved        'graceful-fs': '^4.1.2',
+62 silly resolved        'image-size': '~0.4.0',
+62 silly resolved        mime: '^1.2.11',
+62 silly resolved        mkdirp: '^0.5.0',
+62 silly resolved        promise: '^7.1.1',
+62 silly resolved        request: '^2.51.0',
+62 silly resolved        'source-map': '^0.5.3' },
+62 silly resolved     _id: 'less@2.6.1',
+62 silly resolved     _shasum: '658e01ec9ac3149959c6b6dfbcfbc0a170afda7a',
+62 silly resolved     _from: 'less@',
+62 silly resolved     _npmVersion: '3.6.0',
+62 silly resolved     _nodeVersion: '5.4.1',
+62 silly resolved     _npmUser: { name: 'matthew-dean', email: 'matthewdean.me@gmail.com' },
+62 silly resolved     dist:
+62 silly resolved      { shasum: '658e01ec9ac3149959c6b6dfbcfbc0a170afda7a',
+62 silly resolved        tarball: 'https://registry.npmjs.org/less/-/less-2.6.1.tgz' },
+62 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+62 silly resolved     _npmOperationalInternal:
+62 silly resolved      { host: 'packages-13-west.internal.npmjs.com',
+62 silly resolved        tmp: 'tmp/less-2.6.1.tgz_1457109575213_0.41725030448287725' },
+62 silly resolved     _resolved: 'https://registry.npmjs.org/less/-/less-2.6.1.tgz' } ]
+63 info install less@2.6.1 into /usr/lib
+64 info installOne less@2.6.1
+65 verbose lib/node_modules/less unbuild
+66 verbose tar unpack /home/reevo/.npm/less/2.6.1/package.tgz
+67 silly lockFile c07f1dd4-tar-usr-lib-node-modules-less tar:///usr/lib/node_modules/less
+68 verbose lock tar:///usr/lib/node_modules/less /home/reevo/.npm/c07f1dd4-tar-usr-lib-node-modules-less.lock
+69 silly lockFile 6f825bc3-reevo-npm-less-2-6-1-package-tgz tar:///home/reevo/.npm/less/2.6.1/package.tgz
+70 verbose lock tar:///home/reevo/.npm/less/2.6.1/package.tgz /home/reevo/.npm/6f825bc3-reevo-npm-less-2-6-1-package-tgz.lock
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 error Error: EACCES, mkdir '/usr/lib/node_modules/less'
+72 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/less']
+72 error   errno: 3,
+72 error   code: 'EACCES',
+72 error   path: '/usr/lib/node_modules/less',
+72 error   fstream_type: 'Directory',
+72 error   fstream_path: '/usr/lib/node_modules/less',
+72 error   fstream_class: 'DirWriter',
+72 error   fstream_stack:
+72 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+72 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+72 error      'Object.oncomplete (fs.js:108:15)' ] }
+73 error Please try running this command again as root/Administrator.
+74 error System Linux 3.2.0-4-686-pae
+75 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "less"
+76 error cwd /srv/lorea/www/themes/lorea/less
+77 error node -v v0.10.41
+78 error npm -v 1.4.29
+79 error path /usr/lib/node_modules/less
+80 error fstream_path /usr/lib/node_modules/less
+81 error fstream_type Directory
+82 error fstream_class DirWriter
+83 error code EACCES
+84 error errno 3
+85 error stack Error: EACCES, mkdir '/usr/lib/node_modules/less'
+86 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+86 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+86 error fstream_stack Object.oncomplete (fs.js:108:15)
+87 verbose exit [ 3, true ]
